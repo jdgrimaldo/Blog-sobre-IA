@@ -143,3 +143,19 @@ main {
     animation: link-transition 0.75s ease-in-out;
     color: #3f51b5
 }
+
+@keyframes button-animation {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.boton {
+    animation: button-animation 1s infinite;
+}
